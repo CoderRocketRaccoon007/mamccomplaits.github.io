@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>MAMC Complainnt Portal</title>
+
+    <noscript>
+      <meta http-equiv="refresh" content="url=/?nojs=true">
+    </noscript>
+    <NOSCRIPT>
+      Javascript is required to run this pages.  Please turn it on or visit www.enable-javascript.com if you dont know how to enable it
+    </NOSCRIPT>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+    <script type="text/javascript">
+
+
+      function show1(){
+        document.getElementById('main1').style.display ='none';
+      };
+      function show2(){
+        document.getElementById('gform').style.display = 'block';
+      }
+      function show3(){
+        document.getElementById('googf1').style.display='block';
+      }
+      function show4(){
+        document.getElementById('googf2').style.display='block';
+      }
+
+      function show5(){
+        document.getElementById('googf3').style.display='block';
+      }
+
+      function show6(){
+        document.getElementById('googf4').style.display='block';
+      }
+      function show7(){
+        document.getElementById('main1').style.display='block';
+        document.getElementById('googf1').style.display='none';
+
+      }
+      function show8(){
+        document.getElementById('main1').style.display='block';
+        document.getElementById('googf2').style.display='none';
+
+      }
+      function show9(){
+        document.getElementById('main1').style.display='block';
+        document.getElementById('googf3').style.display='none';
+
+      }
+      function show10(){
+        document.getElementById('main1').style.display='block';
+        document.getElementById('googf4').style.display='none';
+
+      }
+
+
+
+    </script>
+  </head>
+  <body bgcolor="white" background="bgimg3.gif" style="background-image:no-repeat;" link="black" vlink="black">
+
+
+
+    <header><div style="color:brown; left:0px; right:0px; top:0px; width:100%;height:170px; background-color:steelblue; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: fixed;">
+      <div style="font-weight: 40; left: 80px;
+                  width: 800px;
+                  position: absolute;
+                  margin-left: calc((100% - 980px) * 0.5);
+                  margin-right: calc((100% - 980px) * 0.5);
+                  right:176px;
+                  top: 5px;">
+        <h1 align="center" style="text-align: center; color: black; font-family: sans-serif; font-size: 60; font-weight: 60; font: normal normal normal 50px/1.4em spinnaker,sans-serif; "> MAMC Complaint Portal</h1>
+      </div>
+      </div>
+    </header>
+    <br>
+    <br>
+<a name="a1">
+    <div id="main1" style="text-align:center;">
+
+
+      <div style="width:1100px; height:500px;text-align: center; border-spacing: 20px;">
+
+        <div style=" width:400px; height:90px; margin-left:100px; margin-top: 200px; font-size:30; font: normal normal normal 30px/1.4em spinnaker,sans-serif;box-shadow: 0px 0px 3px 1px black; display: inline-block; background-color: ivory;">
+          Girls' Hostel<input type="radio" name="category" value="gh" onclick="show6(),show1()" style="border: 0px;
+            width: 100%;
+            height: 2em;"> 
+        </div>
+        <div style=" width:400px; height:90px;margin-top:200px; float:right; display: inline-block; font-size:30;top: 0px; font: normal normal normal 30px/1.4em spinnaker,sans-serif;box-shadow: 0px 0px 3px 1px black; display: inline-block; background-color: ivory; ">
+          Boys' Hostel<input type="radio" name="category" value="bh" onclick="show3(),show1()" style="border: 0px;
+            width: 100%;
+            height: 2em;">  
+        </div> 
+        <div style="clear:both;"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div style="left:20px; width:400px; height:90px; margin-left:100px; margin-top: 0px; font-size:30; font: normal normal normal 30px/1.4em spinnaker,sans-serif;box-shadow: 0px 0px 3px 1px black; display: inline-block; background-color: ivory; ">
+          Ethical Issues<input type="radio" name="category" value="eth" onclick="show4(),show1()" style="border: 0px;
+            width: 100%;
+            height: 2em;"> 
+        </div>
+        <div style=" width:400px; height:90px;margin-top:0px; float:right; font-size:30;top: 0px; font: normal normal normal 30px/1.4em spinnaker,sans-serif;box-shadow: 0px 0px 3px 1px black; display: inline-block; background-color: ivory;">
+          Other Complaints<input type="radio" name="category" value="oth" onclick="show5(),show1()" style="border: 0px;
+            width: 100%;
+            height: 2em;">   
+        </div> 
+        <div style="clear:both;"></div>
+      </div>
+      </a>
+      <br>
+      <br>
+    </div>
+
+    <div id="gform" style=" box-shadow: 0px 0px 3px 1px black; display: none; margin-top: 125px; padding-left: 10px; width: 900px; margin-left: 200px; height: 600px; top:200px; left:10px;">
+    <form
+            enctype="Plain/text"
+            method="get"
+            name="GH complaints"
+            action="info.php">
+        <br>
+        <h3 style="font-family:sans-serif;">NAME-<sub style="color:ivory"> ...............</sub><input type="text" name="t1" size="50"></h3>
+        <h3 style="font-family:sans-serif;">COURSE-<sub style="color:ivory"> ........</sub> <input type="text" name="t2" size="8"></h3>
+        <h3 style="font-family:sans-serif;">YEAR-<sub style="color:ivory"> ...............</sub><input type="text" name="t3" size="2"></h3>
+        <h3 style="font-family:sans-serif;">SEMESTER-<sub style="color:ivory"> ...</sub><input type="text" name="t4" size="4"></h3>
+        <h3 style="font-family:sans-serif;">E-MAIL ID-<sub style="color:ivory"> ......</sub><input type="text" name="t5" size="100"></h3>
+        <h3>Complaint</h3>
+        <TEXTAREA
+                  cols="120" rows="10" name="ta1">
+        </TEXTAREA>
+        <br>
+        <h3 style="font-family:sans-serif;">Any Related File/Doc etc- <input type="file" name="f1"></h3>
+        <input style="text-align:center;" type="submit" name="s1" value="Submit">
+        <input style="text-align:center;" type="reset" name="r1" value="Reset">
+
+      </form>
+    </div>
+
+
+    <div id="googf1" style="margin-left:300px;  top: 150px; display: none; ">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSw-KJBxgloxaP-TcoE5ipenOM1QVfGiFAP_8uAhsbO83OPw/viewform?embedded=true" width="700" height="1220" frameborder="2px" marginheight="0" marginwidth="0" >Loading...</iframe>
+      <br>
+      <br>
+      <button onclick="show7()" style="font-size:26px; border:none; text-decoration:none;">Back</button>
+
+    </div>
+
+    <div id="googf2" style="margin-left:300px;  top: 150px; display: none;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4PiHa91weyh4MmiLpEE27X93-w6XvxM0ivqZ66pfrHH70gg/viewform?embedded=true" width="700" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <br>
+      <button onclick="show8()" style="font-size:26px; border:none; text-decoration:none;">Back</button>
+    </div>
+
+    <div id="googf3" style="margin-left:300px;  top: 150px; display: none;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScX_xB2_r6TWTAoKgwCR-KHac7hXkrEL8KGFaRMd5dI91Z6VQ/viewform?embedded=true" width="700" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <br>
+      <button onclick="show9()" style="font-size:26px; border:none; text-decoration:none;">Back</button>
+    </div>
+
+    <div id="googf4" style="margin-left:300px;  top: 150px; display: none;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQYNOLvFifcGX7C6Qkf-Hsgqh31skNRiQ6pDapDzDPCUt-lQ/viewform?embedded=true" width="700" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <br>
+      <button onclick="show10()" style="font-size:26px; border:none; text-decoration:none;">Back</button>
+    </div>
+
+    <div style="top:0px; margin-top:15px; position:fixed; margin-left: 30px;">
+
+      <img src="mamclogo.gif" height="140px" width="230px">
+    </div>
+
+    <footer><div style="left:0px; right:0px; top:100px; bottom: 0px; margin-bottom: 0px; width:100%;height:150px; background-color: black; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: relative;">
+      <div style="font-weight: 40; left: 80px;
+                  width: 800px;
+                  position: absolute;
+                  margin-left: calc((100% - 980px) * 0.5);
+                  margin-right: calc((100% - 980px) * 0.5);
+                  right:176px;
+                  top: 5px;">
+        <br>
+        <div style=" align:center; text-align: left; left: 0px; margin-left: 0px; position: absolute;">
+          <a align="center" style="text-align: left; color: ivory; font-family: cursive; font: normal normal normal 20px/1.4em spinnaker,jokerman; margin-left: 0px; left: 0px;">Maulana Azad Medical College<br> 2, Bahadur Shah Zafar Road, Balmiki Basti, New Delhi<br> Delhi 110002</a><br>
+        </div>
+
+
+        <div style="text-align:right;">
+          <a href="https://www.facebook.com/Maulana-Azad-Medical-College-Associated-Hospitals-New-Delhi-163926630836287/" style="text-decoration:none;"><img src="facebook.gif" height="50px" width="50px"> </a> <sub style="color:black;">....</sub>  
+          <a href=",mamc.com" style="text-decoration:none;">  <img src="youtube.gif" height="50px" width="50px"> </a> <sub style="color:black;">....</sub>    
+          <a href="http://www.mamc.ac.in/" style="text-decoration:none;">  <img src="official.gif" height="50px" width="50px"> </a>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
+
+
+
+
